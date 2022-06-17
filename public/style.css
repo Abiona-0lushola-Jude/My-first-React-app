@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul,
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+    margin-block: 1.2rem;
+}
+.order{
+    padding: 0.8rem;
+    background-color: orange;
+    border-radius: 0.4rem;
+}
+.left{
+    padding: 2.5rem 2rem;
+}
+.hero{
+    height: 85vh;
+    background-image: url("/src/pexels-daniel-reche-1556704.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+}
+.left h1{
+    margin-block: 2rem;
+    font-size: 3rem;
+    width: 23rem;
+    line-height: 4rem;
+    color: orange;
+}
+.hero-btn{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.hero-btn p{
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+}
+.hero-btn p:first-child{
+    background-color: orange;
+}
+.hero-btn p:last-child{
+    background-color: white;
+}
